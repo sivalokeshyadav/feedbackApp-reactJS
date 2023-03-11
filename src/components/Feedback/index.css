@@ -1,0 +1,60 @@
+/* Write your CSS code here. */
+.app-container {
+  height: 100vh;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb, #ffebeb);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.main-container {
+  background-color: #ffffff;
+  margin: 10px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+}
+
+.un-order-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgU {
+  width: 80px;
+  padding-right: 30px;
+}
+
+.para {
+  width: 10px;
+  padding-right: 60px;
+}
+
+.thankyou-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.thankyou-para {
+  font-family: 'Roboto';
+}
